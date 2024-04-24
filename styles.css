@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cee8e8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+    margin: 10px 0;
+    color: #333;
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form select {
+    width: calc(20% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.15686 0.15625C0.886719 -0.125 0.488281 -0.125 0.21875 0.15625C-0.0625 0.421875 -0.0625 0.824219 0.21875 1.09375L5.4375 6.34375C5.70703 6.60938 6.10938 6.60938 6.375 6.34375L11.5938 1.09375C11.8633 0.824219 11.8633 0.421875 11.5938 0.15625C11.3281 -0.125 10.9258 -0.125 10.6562 0.15625L6 4.8125L1.34375 0.15625C1.07812 -0.125 0.675781 -0.125 0.40625 0.15625L1.15686 0.15625Z' fill='%23272727'/%3E%3C/svg%3E") no-repeat right 10px center/10px 8px;
+}
+
+form hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+footer textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+aside {
+    background: #efeaea;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    form input[type="text"],
+    form input[type="password"],
+    form textarea,
+    form select {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 50px) {
+    .container {
+        padding: 10px;
+    }
+}
